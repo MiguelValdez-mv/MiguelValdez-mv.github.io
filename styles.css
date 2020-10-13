@@ -1,8 +1,74 @@
 body {
-	font-family: "Montserrat", sans-serif;
+	font-family: "Quicksand", sans-serif;
+	padding-right: 20px;
+	padding-left: 20px;
+	display: flex;
+	flex-direction: column;
 }
 
+/*--------------Title: ------------------*/
 .containerTitle {
 	display: flex;
 	justify-content: center;
+	align-items: center;
+}
+
+.titleImage {
+	width: 50px;
+	height: 50px;
+}
+
+.title {
+	font-family: "Sacramento", cursive;
+	margin: 20px 0 0 10px;
+}
+
+/*--------------------------------*/
+
+/*--------------Text ------------------*/
+
+.textSection {
+	margin: 30px;
+}
+
+.text {
+	font-size: 20px;
+}
+
+.imageText {
+	margin: 15px;
+	width: 40px;
+	height: 40px;
+}
+/*--------------------------------*/
+
+/*--------------ImagesSection ------------------*/
+.imagesSection {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.imageItemList {
+	width: 350px;
+	height: 350px;
+	border-radius: 5px;
+	margin: 10px;
+}
+/*--------------------------------*/
+
+/*--------------Footer ------------------*/
+footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+/*--------------------------------*/
+
+.anexos {
+	margin-left: 50px;
+	padding: 10px;
 }
